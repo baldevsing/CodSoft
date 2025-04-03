@@ -1,0 +1,309 @@
+body{
+    background-color: antiquewhite;
+}
+header{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: 0;
+}
+#img{
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+}
+#heading >  h1{
+    font-size: 40px;
+    color: #a9220d;
+    margin-top: 10px;
+    padding: 0;
+}
+#para{
+    color: #a9220d;
+    font-size: 20px;
+    margin-top: -20px;
+    padding: 0;
+}
+header{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.navbar > ul {
+    display: flex;
+    justify-content:end;
+    align-items: center;
+    margin-left: 350px;
+}
+.navbar > ul > li {
+    list-style: none;
+    margin: 20px 40px 0 40px;
+    padding: 0;
+   
+}
+.navbar > ul > li >a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-family: calibri;
+    font-weight: 700;
+}
+.navbar > ul > li >a:hover {
+    color: #a9220d;
+    transition: 0.2s;
+}
+main{
+    margin: 0;
+    padding: 0;
+}
+.home{
+    background-image: url(main\ pic.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 120px;
+    margin-top: -30px;
+}
+.home > h2{
+    font-family: arial;
+    font-size: 25px;
+    color: white;
+    padding-top: 30px;
+    padding-left: 100px;
+}
+.home > p{
+    font-family: calibri;
+    font-size: 18px;
+    color: black;
+    margin-top: -20px;
+    padding-left: 100px;
+}
+#home-section{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.left-bar{
+    width: 750px;
+    height: 450px;
+    background-image: url(RCB\ LEFTbar.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: solid 2px #a9220d;
+    margin: 20px;
+}
+.right-bar{
+    width: 600px;
+    height: 450px;
+    box-shadow: #a9220d 0px 0px 8px;
+    margin: 20px;
+}
+.right-bar > h2{
+    color: #a9220d;
+    font-size: 25px;
+    font-family: arail;
+    padding: 0 10px;
+}
+.right-bar > p{
+    color: black;
+    font-size: 17px;
+    padding: 5px;
+}
+#items{
+    height: 250px;
+    width: 160px;
+    background-color: #a9220d;
+    color: white;
+    border-radius: 0 0 30px 30px ;
+}
+#plyr-Sec{
+    background-color: #f9ada1;
+    color: #a9220d;
+    height: 80px;
+    width: 100%;
+    text-align: center;
+    align-content: center;
+
+}
+#plyr-Sec > h1{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: calibri;
+}
+.players{
+    background-image: url(stadium);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+     visibility: 0.3;
+    display: grid;
+    grid-template-columns: repeat(6, 200px);
+    margin: 20px 0 0 0;
+    row-gap: 25px;
+    column-gap: 15px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+#player{
+    height: 200px;
+    width: 160px;
+    /* background-color: #a9220d; */
+    background-image: url(item-1);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#items > h3{
+    color: white;
+    font-size: 30px;
+    font-family: calibri;
+    text-align: center;
+    margin-top: 0px;
+    text-transform: uppercase;
+}
+.schedule{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    row-gap: 50px;
+}
+#matchs{
+    height: 350px;
+    width: 500px;
+    background-image: url(schedule);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: #a9220d 0px 0px 8px;
+    align-items: center;
+    align-content: center;
+    margin-top: 40px;
+}
+#matchs > h1{
+    font-family: calibri;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    margin-top: 0px;
+}
+#matchs > p{
+    font-family: calibri;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin-top: -20px;
+}
+.location{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+.location > p{
+    font-family: calibri;
+    font-size: 20px;
+    color: #a9220d;
+    margin-top: -20px;
+}
+#teams >  #team-1{
+    height: 150px;
+    width: 150px;
+    background-color: #a9220d;
+    border-radius: 80px;
+}
+#teams > span{
+    font-family: arial;
+    font-size: 30px;
+    color: #a9220d;
+}
+#teams > #team-2{
+    height: 150px;
+    width: 150px;
+    background-color: #a9220d;
+    border-radius: 80px;
+}
+#teams{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+.rcb{
+    background-image: url(rcb\ schedule.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.kk{
+    background-image: url(kk\ schedule.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.mi{
+    background-image: url(mi\ schedule.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.pbks{
+    background-image: url(pbks\ schedule.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.csk{
+    background-image: url(csk\ schedule);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#matchs > button{
+    background-color: #a9220d;
+    color: white;
+    font-size: 20px;
+    font-family: calibri;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin-left: 190px;
+}
+#matchs > button:hover{
+    background-color: #ffffff;
+    color: #a9220d;
+    font-size: 20px;
+    font-family: calibri;
+    border-radius: 10px;
+    border: solid 2px #a9220d;
+    padding: 10px;
+    cursor: pointer;
+    margin-left: 190px;
+    transition: 0.2s;
+}
+#right-arrow{
+    cursor: pointer;
+    display: flex;
+    justify-content: end;
+    margin-right: 70px;
+    margin-top: 40px;
+}
+#right-arrow > img{
+    height: 30px;
+}
+footer{
+    background-color: #a9220d;
+    color: white;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 40px;
+}
