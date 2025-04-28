@@ -1,0 +1,400 @@
+.main{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    
+}
+.logo > img{
+    height: 80px;
+    margin: 0;
+}
+#heading{
+ font-family: arial;
+ color: rgb(50, 7, 123);
+}
+.navbar >ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    list-style: none;
+    margin-right: 100px;
+}
+.navbar > ul > li >a{
+    margin: 0 20px;
+    font-family: calibri;
+    font-size: 20px;
+    color: #ff0000;
+    text-decoration: none;
+}
+.navbar > ul > li >a:hover{
+    color: rgb(50, 7, 123);
+    text-decoration: underline;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: bisque;
+}
+.home{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#home{
+    background-color: bisque;
+    height: 500px;
+    width: 800px;
+    margin-top: 50px;
+    text-align: center;
+}
+#home > h2{
+    color: black;
+    font-family: calibri;
+    font-size: 30px;
+}
+#home > h1{
+    color: rgb(50, 7, 123);
+    font-family: arail;
+    font-size: 50px;
+    margin-top: 0;
+    padding-top: 0;
+}
+#baldev1{
+    height: 400px;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+#home > p{
+    color: black;
+    font-family: calibri;
+    font-size: 20px;
+    padding: 20px;
+}
+#home > button{
+    background-color: #ff0000;
+    color: white;
+    font-family: calibri;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#home > button:hover{
+    background-color: bisque;
+    color: #ff0000;
+    border: 2px solid #ff0000;
+}
+.about-me{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.about{
+    height: 350px;
+    width: 700px;
+    background-color: antiquewhite;
+    margin-right: 50px;
+}
+#h2-aboutme{
+    color: rgb(50, 7, 123);
+    font-family: calibri;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 0;
+}
+.about > p{
+    color: black;
+    font-family: calibri;
+    font-size: 20px;
+    text-align: center;
+    padding: 30px 20px;
+    margin: 0 40px;
+}
+#baldev2{
+    height: 250px;
+    margin-left: 200px;
+    margin-top: 20px;
+    border-radius: 50px 0px;
+}
+#myskills{
+    text-align: center;
+    font-family: arial;
+    font-size: 40px;
+    color:rgb(50, 7, 123) ;
+}
+.skills{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: center;
+}
+.html{
+    height: 200px;
+    width: 300px;
+    align-items: center;
+    text-align: center;
+}
+.html > img{
+    height: 80px;
+    margin-top: 10px;
+}
+.html:hover{
+    background-color: bisque;
+    transition: 0.5s;
+}
+.css{
+    height: 200px;
+    width: 300px;
+    background-color: rgb(255, 253, 251);
+    align-items: center;
+    text-align: center;
+}
+.css > img{
+    height: 80px;
+    margin-top: 10px;
+}
+.css:hover{
+    background-color: bisque;
+    transition: 0.5s;
+}
+.js{
+    height: 200px;
+    width: 300px;
+    background-color: rgb(255, 253, 251);
+    align-items: center;
+    text-align: center;
+}
+.js > img{
+    height: 80px;
+    margin-top: 10px;
+}
+.js:hover{
+    background-color: bisque;
+    transition: 0.5s;
+}
+.figma{
+    height: 200px;
+    width: 300px;
+    background-color: rgb(255, 253, 251);
+    align-items: center;
+    text-align: center;
+}
+.figma > img{
+    height: 80px;
+    margin-top: 10px;
+}
+.figma:hover{
+    background-color: bisque;
+    transition: 0.5s;
+}
+.github{
+    height: 200px;
+    width: 300px;
+    background-color: rgb(255, 253, 251);
+    align-items: center;
+    text-align: center;
+}
+.github > img{
+    height: 80px;
+    margin-top: 10px;
+}
+.github:hover{
+    background-color: bisque;
+    transition: 0.5s;
+}
+.photoshop{
+    height: 200px;
+    width: 300px;
+    background-color: rgb(255, 253, 251);
+    align-items: center;
+    text-align: center;
+}
+.photoshop > img{
+    height: 80px;
+    margin-top: 10px;
+}
+.photoshop:hover{
+    background-color: bisque;
+    transition: 0.5s;
+}
+.reactjs{
+    height: 200px;
+    width: 300px;
+    background-color: rgb(255, 253, 251);
+    align-items: center;
+    text-align: center;
+}
+.reactjs > img{
+    height: 80px;
+    margin-top: 10px;
+}
+.reactjs:hover{
+    background-color: bisque;
+    transition: 0.5s;
+}
+.bootstrap{
+    height: 200px;
+    width: 300px;
+    background-color: rgb(255, 253, 251);
+    align-items: center;
+    text-align: center;
+}
+.bootstrap > img{
+    height: 80px;
+    margin-top: 10px;
+}
+.bootstrap:hover{
+    background-color: bisque;
+    transition: 0.5s;
+}
+#projects{
+    text-align: center;
+    font-family: arial;
+    font-size: 40px;
+    color:rgb(50, 7, 123) ;
+}
+.projects{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    align-items: center;
+    justify-items: center;
+}
+.project1{
+    height: 350px;
+    width: 700px;
+    background-color: antiquewhite;
+    text-align: center;
+}
+.project2{
+    height: 350px;
+    width: 700px;
+    background-color: antiquewhite;
+    text-align: center;
+}
+.project3{
+    height: 350px;
+    width: 700px;
+    background-color: antiquewhite;
+    text-align: center;
+}
+.project4{
+    height: 350px;
+    width: 700px;
+    background-color: antiquewhite;
+    text-align: center;
+}
+#github{
+    text-align: center;
+    font-family: arial;
+    font-size: 25px;
+    color:white ;
+    background-color: rgb(50, 7, 123);
+    border-radius: 5px;
+    border: solid 2px white;
+}
+#github > a{
+    color: white;
+    text-decoration: none;
+    font-family: calibri;
+    font-size: 20px;
+}
+#demo{
+    text-align: center;
+    font-family: arial;
+    font-size: 25px;
+    color:white ;
+    background-color: rgb(50, 7, 123);
+    border-radius: 5px;
+    border: solid 2px white;
+}
+#demo > a{
+    color: white;
+    text-decoration: none;
+    font-family: calibri;
+    font-size: 20px;
+}
+#project-Img{
+    height: 180px;
+    margin-top: 10px;
+
+}
+#linkedin-page{
+    height: 180px;
+    background-position: cover;
+    background-repeat: no-repeat;
+}
+#calculator{
+    height: 180px;
+    background-position: cover;
+    background-repeat: no-repeat;
+}
+#portfolio{
+    height: 180px;
+    background-position: cover;
+    background-repeat: no-repeat;
+}
+#landing-page{
+    height: 180px;
+    background-position: cover;
+    background-repeat: no-repeat;
+}
+
+#resume{
+    text-align: center;
+    font-family: arial;
+    font-size: 40px;
+    color:rgb(50, 7, 123) ;
+}
+.resume > p{
+    color: black;
+    font-family: calibri;
+    font-size: 20px;
+    text-align: center;
+    padding: 30px 20px;
+    margin: 0 40px;
+}
+#download-resume{
+    text-align: center;
+    font-family: arial;
+    font-size: 25px;
+    color:white ;
+    background-color: red;
+    border-radius: 5px;
+    border: solid 2px white;
+    margin-left: 43%;
+}
+#download-resume:hover{
+    background-color: bisque;
+    color: #ff0000;
+    border: 2px solid #ff0000;
+}
+footer{
+    background-color: gray;
+    height: 270px;
+    text-align: center;
+    color: white;
+}
+#contact{
+    text-align: center;
+    font-family: arial;
+    font-size: 30px;
+    color:black;
+    padding-top: 20px;
+}
+.contact > p{
+    color: white;
+    font-family: calibri;
+    font-size: 20px;
+    text-align: center;
+}
+#email{
+    background-color: white;
+    color: black;
+}
